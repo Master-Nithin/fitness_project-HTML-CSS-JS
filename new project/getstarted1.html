@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise Recommendation</title>
+<link rel="stylesheet" href="getstarted1.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Exercise Recommendation</h2>
+    <form id="exerciseForm">
+      <div class="form-group">
+        <label for="height">Height (in cm):</label>
+        <input type="number" id="height" name="height" required>
+      </div>
+      <div class="form-group">
+        <label for="weight">Weight (in kg):</label>
+        <input type="number" id="weight" name="weight" required>
+      </div>
+      <button type="submit">Get Exercise Recommendation</button>
+      <button type="button" onclick="clearForm()">Clear</button>
+    </form>
+    <div id="exerciseResult"></div>
+  </div>
+  <script src="getstarted1.js"></script>
+</body>
+</html>

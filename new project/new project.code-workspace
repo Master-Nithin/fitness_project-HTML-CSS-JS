@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../gym photoes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "new project"
+	}
+}

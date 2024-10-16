@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(
+      to right,
+      #c8ff0304,
+      rgba(26, 224, 185, 0)
+    ),
+    url("3d-gym-equipment_23-2151114163.jpg");
+  background-size: cover;
+  background-position: full image full image;
+  background-repeat: repeat;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #04fc0c;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(42, 220, 7, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #04fc0c;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ec1212;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e9f506;
+  }
+  
+  #exerciseResult {
+    margin-top: 20px;
+  }
+  
